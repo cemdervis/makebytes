@@ -27,6 +27,8 @@ To generate a C# file where the byte array resides in namespace _MyNamespace_ an
 makebytes csharp="MyNamespace:MyBytes;C:/OutPath/MyFile.cs" "C/InPath/MyFile.bin"
 ``
 
+To see the full list of support languages / options, just execute `makebytes` without any arguments.
+
 ## How to build
 
 Just use CMake and prepare your C++ 17 compiler.
