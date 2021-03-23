@@ -24,7 +24,13 @@ makebytes cpp="MyBytes;C:/OutPath/MyFile.hpp" "C:/InPath/MyFile.bin"
 To generate a C# file where the byte array resides in namespace _MyNamespace_ and is called _MyBytes_, the command line would be as follows:
 
 ``
-makebytes csharp="MyNamespace:MyBytes;C:/OutPath/MyFile.cs" "C/InPath/MyFile.bin"
+makebytes csharp="MyNamespace:MyBytes;C:/OutPath/MyFile.cs" "C:/InPath/MyFile.bin"
+``
+
+Instead of generating a file, you may specify `cout` as an output file to write it to the console:
+
+``
+makebytes python="MyVar;cout" "C:/InPath/MyFile.bin"
 ``
 
 To see the full list of support languages / options, just execute `makebytes` without any arguments.
