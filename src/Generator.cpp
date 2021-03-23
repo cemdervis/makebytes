@@ -290,7 +290,7 @@ void Generator::GenerateJava()
     w.CloseBrace();
   }
 
-  FinishFile(w, args.OutputFilename, "Python");
+  FinishFile(w, args.OutputFilename, "Java");
 }
 
 void Generator::GeneratePython()
